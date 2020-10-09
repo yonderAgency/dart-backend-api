@@ -1,7 +1,6 @@
 module.exports.constants = {
-    BASE_URL: 'https://foodjunkies.miraclechd.co:6543',
-    DISTRIBUTION_KEY: 'ENTER_YOUR_DISTRIBUTION_URL',
-
+    BASE_URL: 'https://limitless-refuge-52064.herokuapp.com/',
+    DISTRIBUTION_KEY: '4NZKjdgiQRDXIhq9TrnUTLuwoN5pZ6Dx',
     DELIVERY_URL: 'https://foodjunkies.miraclechd.co:6542/',
     DELIVERY_KEY:
         'SET_THE_SAME_IN_DELIVERY_API_BASE',
