@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"trialv2.settings"}],"uuid":"7f45a088d2bf4b72b8f8cb07cfe42ed7"}

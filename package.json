@@ -1,0 +1,66 @@
+{
+    "name": "maspronto",
+    "private": true,
+    "version": "1.0.1",
+    "description": "Jerry on demand app soltions",
+    "keywords": [],
+    "dependencies": {
+        "@sailshq/connect-redis": "^3.2.1",
+        "@sailshq/lodash": "^3.10.3",
+        "@sailshq/socket.io-redis": "^5.2.0",
+        "@sentry/node": "^4.4.2",
+        "async": "2.0.1",
+        "axios": "^0.18.0",
+        "bcrypt": "^3.0.0",
+        "chai": "^4.2.0",
+        "dotenv": "^8.2.0",
+        "express-react-views": "^0.10.5",
+        "gm": "^1.23.1",
+        "grunt": "1.0.1",
+        "helmet": "^3.15.0",
+        "iplocation": "^5.0.1",
+        "jsonwebtoken": "^8.3.0",
+        "lodash": "3.10.1",
+        "lusca": "^1.6.1",
+        "moment": "^2.24.0",
+        "nodemon": "^1.18.5",
+        "onesignal-node": "^2.0.1",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "sails": "^1.0.2",
+        "sails-hook-cron": "^3.0.0",
+        "sails-hook-email": "^0.12.1",
+        "sails-hook-grunt": "^3.1.1",
+        "sails-hook-orm": "^2.1.1",
+        "sails-hook-sockets": "^1.5.5",
+        "sails-hook-validation": "^0.4.7",
+        "sails-mongo": "^1.0.1",
+        "sails-service-image": "^3.1.1",
+        "sails-service-sms": "^3.1.1",
+        "sails-service-storage": "^3.2.1",
+        "sharp": "^0.21.1",
+        "stripe": "^6.12.1",
+        "twilio": "^3.19.2"
+    },
+    "devDependencies": {
+        "@sailshq/eslint": "^4.19.3",
+        "grunt-sync": "0.8.0",
+        "prettier": "^1.19.1"
+    },
+    "scripts": {
+        "start": "NODE_ENV=production node app.js",
+        "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+        "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+        "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+    },
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/anonymous node/sails user/base.git"
+    },
+    "author": "anonymous node/sails user",
+    "license": "",
+    "engines": {
+        "node": ">=8.11"
+    }
+}
