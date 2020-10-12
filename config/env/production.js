@@ -19,6 +19,8 @@
  * https://sailsjs.com/docs/concepts/deployment
  */
 
+ var dataStoreInfo = require('../datastores');
+
 module.exports = {
     /**************************************************************************
      *                                                                         *
@@ -67,6 +69,8 @@ module.exports = {
              *                                                                           *
              ****************************************************************************/
             // ssl: true,
+            adapter : dataStoreInfo.datastores.default.adapter,
+            url : dataStoreInfo.datastores.default.url,
         }
     },
 
