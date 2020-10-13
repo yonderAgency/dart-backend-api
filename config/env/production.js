@@ -169,7 +169,7 @@ module.exports = {
          * > (For a full list, see https://sailsjs.com/plugins/sessions)            *
          *                                                                          *
          ***************************************************************************/
-        adapter: dataStoreInfo.datastores.default.adapter,
+        adapter: 'connect-mongo',
         url: dataStoreInfo.datastores.default.url,
         //--------------------------------------------------------------------------
         // /\   OR, to avoid checking it in to version control, you might opt to
