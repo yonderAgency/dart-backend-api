@@ -1,5 +1,5 @@
 module.exports.constants = {
-    BASE_URL: 'https://afternoon-fjord-00481.herokuapp.com:8081',
+    BASE_URL: 'http://ec2-18-191-197-106.us-east-2.compute.amazonaws.com:8081',
     DISTRIBUTION_KEY: '4NZKjdgiQRDXIhq9TrnUTLuwoN5pZ6Dx',
     DELIVERY_URL: 'https://foodjunkies.miraclechd.co:6542/',
     DELIVERY_KEY:
