@@ -1,7 +1,5 @@
-let port = process.env.PORT;
-
 module.exports = {
-    port,
+    port: process.env.PORT,
     environment: process.env.NODE_ENV,
     ssl:
         process.env.IS_SSL_FILES === 'true'
