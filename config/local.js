@@ -1,5 +1,5 @@
 module.exports = {
-    port: process.env.PORT,
+    port: process.env.PORT || 80,
     environment: process.env.NODE_ENV,
     ssl:
         process.env.IS_SSL_FILES === 'true'
