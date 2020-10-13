@@ -7,7 +7,7 @@ module.exports.security = {
     cors: {
         allRoutes: true,
         allowOrigins: '*',
-        allowRequestHeaders: 'Content-Type, x-auth-token, latitude, longitude',
+        allowRequestHeaders: 'Content-Type, x-auth-token, latitude, longitude, Access-Control-Allow-Origin',
         allowRequestMethods: 'GET, POST, DELETE'
     }
 };
