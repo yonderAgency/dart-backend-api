@@ -324,12 +324,12 @@ module.exports = {
      * > https://sailsjs.com/config/*#?sailsconfigssl                          *
      *                                                                         *
      **************************************************************************/
-    // ssl: undefined,
-    ssl: {
-        ca: require('fs').readFileSync(require('path').resolve(__dirname,'../ssl/newjerryCA.crt')),
-        key: require('fs').readFileSync(require('path').resolve(__dirname,'../ssl/newjerry.key')),
-        cert: require('fs').readFileSync(require('path').resolve(__dirname,'../ssl/newjerry.crt'))
-    },
+    ssl: undefined,
+    // ssl: {
+    //     ca: require('fs').readFileSync(require('path').resolve(__dirname,'../ssl/newjerryCA.crt')),
+    //     key: require('fs').readFileSync(require('path').resolve(__dirname,'../ssl/newjerry.key')),
+    //     cert: require('fs').readFileSync(require('path').resolve(__dirname,'../ssl/newjerry.crt'))
+    // },
 
     /**************************************************************************
      *                                                                         *
