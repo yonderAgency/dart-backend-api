@@ -49,7 +49,7 @@
         "prettier": "^1.19.1"
     },
     "scripts": {
-        "start": "sudo NODE_ENV=production node app.js",
+        "start": "NODE_ENV=production node app.js",
         "test": "npm run lint && npm run custom-tests && echo 'Done.'",
         "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
         "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
